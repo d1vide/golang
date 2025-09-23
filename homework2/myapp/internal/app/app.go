@@ -8,11 +8,6 @@ import (
 	"github.com/d1vide/myapp/utils"
 )
 
-type pingResp struct {
-	Status string `json:"status"`
-	Time   string `json:"time"`
-}
-
 func Run() {
 	mux := http.NewServeMux()
 
