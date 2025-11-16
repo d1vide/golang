@@ -30,6 +30,7 @@ cd homework3/pz3-http/
 2. Просмотр списка тасок
 
 ![alt text](screenshots/image-2.png)
+
 3. Просмотр конкретной таски
 
 ![alt text](screenshots/image-3.png)
