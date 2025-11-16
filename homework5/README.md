@@ -40,7 +40,9 @@ CREATE TABLE IF NOT EXISTS tasks (
 
 ## Результат вывода программы:
 ![alt text](screenshots/image1.png)
+
 Содержимое таблицы Tasks:
+
 ![alt text](screenshots/image2.png)
 
 ## Код

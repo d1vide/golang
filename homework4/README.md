@@ -10,6 +10,7 @@
 
 ## Ход работы:
 1. Структура
+
 ![alt text](screenshots/image.png)
 2. Примеры работы эндпоинтов:
 - POST `/tasks`
@@ -59,6 +60,7 @@
 
 - DELETE `/tasks/{id}`
 Удаление таски по id
+
 ![alt text](screenshots/image-5.png)
 3. Описание работы с файловым хранилищем
 

@@ -1,4 +1,4 @@
-# Практическое занятие №2
+# Практическое занятие №3
 
 ## Тема: Реализация простого HTTP-сервера на стандартной библиотеке net/http. Обработка запросов GET/POST
 
@@ -24,22 +24,38 @@ cd homework3/pz3-http/
 
 ## Примеры ответов на запросы
 1. Создание таски
+
 ![alt text](screenshots/image-1.png)
+
 2. Просмотр списка тасок
+
 ![alt text](screenshots/image-2.png)
 3. Просмотр конкретной таски
+
 ![alt text](screenshots/image-3.png)
+
 4. Изменение поля done таски
+
 ![alt text](screenshots/image-4.png)
+
 5. Проверка изменения поля
+
 ![alt text](screenshots/image-5.png)
+
 6. Удаление таски
+
 ![alt text](screenshots/image-6.png)
+
 7. Проверка удаления тасок
+
 ![alt text](screenshots/image-7.png)
+
 8. Проверка удаления таски
+
 ![alt text](screenshots/image.png)
+
 9. Проверка возможности done: false для таски
+
 ![alt text](screenshots/image-8.png)
 
 (копипасты для curl запросов в `requests.md`)
@@ -55,10 +71,15 @@ cd homework3/pz3-http/
 В такой реализации результат будет корректно возвращаться только для адреса `127.0.0.1` но не для `localhost`
 
 `127.0.0.1`
+
 ![alt text](screenshots/image3.png)
+
 `localhost`
+
 ![alt text](screenshots/image1.png)
+
 ![alt text](screenshots/image4.png)
+
 ## Graceful shutdown
 Обеспечивает плавное завершение работы сервера без обрыва текущих соединений
 
@@ -70,5 +91,6 @@ cd homework3/pz3-http/
 - Сервер перестает принимать новые запросы
 - Ждет завершения активных обработчиков (30 сек)
 - Если не успевает - принудительно закрывает оставшиеся соединения
+
 
 ![alt text](screenshots/image2.png)
