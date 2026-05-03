@@ -47,5 +47,5 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image
-        run: docker build -t techip-tasks:${{ github.sha }} ./homework24/pz7-docker/services/tasks
+        run: docker build -t techip-tasks:${{ github.sha }} .
         working-directory: ./homework24/pz7-docker/services/tasks
